@@ -107,7 +107,7 @@ class Model:
         if start_index >= len(self._escursioni_parco):
             return
 
-        #scorro le escursioni disponibili a partire da start_index
+        #scorro le escursioni a partire da start_index
         for i in range(start_index, len(self._escursioni_parco)):
             esc = self._escursioni_parco[i]
 
